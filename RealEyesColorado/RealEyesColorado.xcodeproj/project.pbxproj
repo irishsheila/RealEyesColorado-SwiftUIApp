@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562A68752602B1E4009C362C /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A68742602B1E4009C362C /* MapAnnotationView.swift */; };
+		56434D5525FADD5700F5B4F4 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56434D5425FADD5700F5B4F4 /* TabsView.swift */; };
+		56434D5D25FAE05400F5B4F4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56434D5C25FAE05400F5B4F4 /* MapView.swift */; };
+		56434D6625FAE1E700F5B4F4 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 56434D6525FAE1E700F5B4F4 /* locations.json */; };
+		56434D7325FAE7AB00F5B4F4 /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56434D7225FAE7AB00F5B4F4 /* CodeableBundleExtension.swift */; };
+		56641B7425F83C5C0088DB21 /* RealEyesColoradoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641B7325F83C5C0088DB21 /* RealEyesColoradoApp.swift */; };
+		56641B7625F83C5C0088DB21 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641B7525F83C5C0088DB21 /* LocationsView.swift */; };
+		56641B7825F83C5F0088DB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56641B7725F83C5F0088DB21 /* Assets.xcassets */; };
+		56641B7B25F83C5F0088DB21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56641B7A25F83C5F0088DB21 /* Preview Assets.xcassets */; };
+		56641B8625F83C600088DB21 /* RealEyesColoradoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641B8525F83C600088DB21 /* RealEyesColoradoTests.swift */; };
+		56641B9125F83C600088DB21 /* RealEyesColoradoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641B9025F83C600088DB21 /* RealEyesColoradoUITests.swift */; };
+		56DFB7E025FBF4E500CE5B1E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB7DF25FBF4E500CE5B1E /* Location.swift */; };
+		56DFB7E825FBF6BF00CE5B1E /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB7E725FBF6BF00CE5B1E /* LocationDetailView.swift */; };
+		56DFB7F425FBF8AB00CE5B1E /* LocationListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB7F325FBF8AB00CE5B1E /* LocationListItemView.swift */; };
+		56DFB80725FC3CC600CE5B1E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB80625FC3CC600CE5B1E /* Colors.swift */; };
+		56DFB81C25FFE1DA00CE5B1E /* DetailGalleryScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB81B25FFE1DA00CE5B1E /* DetailGalleryScrollView.swift */; };
+		56DFB82125FFE2F900CE5B1E /* DetailHeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB82025FFE2F900CE5B1E /* DetailHeadingView.swift */; };
+		56DFB82A25FFE62C00CE5B1E /* DetailFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB82925FFE62C00CE5B1E /* DetailFactView.swift */; };
+		56DFB83226000C0800CE5B1E /* DetailExternalLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB83126000C0800CE5B1E /* DetailExternalLinkView.swift */; };
+		56DFB8372600195500CE5B1E /* DetailMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DFB8362600195500CE5B1E /* DetailMapView.swift */; };
+		56F3A74C260535CF00456980 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3A74B260535CF00456980 /* VideoView.swift */; };
+		56F3A7512605381600456980 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3A7502605381600456980 /* VideoListItemView.swift */; };
+		56F3A757260538BC00456980 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3A756260538BC00456980 /* VideoDetailView.swift */; };
+		56F3A7622605513F00456980 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3A7612605513F00456980 /* CoverImageView.swift */; };
+		987B01FB5B81B027396DAFC4 /* Pods_RealEyesColorado_RealEyesColoradoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A979232752D59096B610D7 /* Pods_RealEyesColorado_RealEyesColoradoUITests.framework */; };
+		F064751D58CD0CDFF568D50D /* Pods_RealEyesColorado.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7229744948C00D1541E034 /* Pods_RealEyesColorado.framework */; };
+		F33F5BFDA88EC3A474ACE11C /* Pods_RealEyesColoradoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8F01D7A3CEDDB055650525 /* Pods_RealEyesColoradoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56641B8225F83C600088DB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56641B6825F83C5C0088DB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56641B6F25F83C5C0088DB21;
+			remoteInfo = RealEyesColorado;
+		};
+		56641B8D25F83C600088DB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56641B6825F83C5C0088DB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56641B6F25F83C5C0088DB21;
+			remoteInfo = RealEyesColorado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		296DDA13D9EA2269EA689DCF /* Pods-RealEyesColoradoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEyesColoradoTests.release.xcconfig"; path = "Target Support Files/Pods-RealEyesColoradoTests/Pods-RealEyesColoradoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A2953D030097F36DB8D109A /* Pods-RealEyesColoradoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEyesColoradoTests.debug.xcconfig"; path = "Target Support Files/Pods-RealEyesColoradoTests/Pods-RealEyesColoradoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		463ED711D31CE23442A017C2 /* Pods-RealEyesColorado-RealEyesColoradoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEyesColorado-RealEyesColoradoUITests.debug.xcconfig"; path = "Target Support Files/Pods-RealEyesColorado-RealEyesColoradoUITests/Pods-RealEyesColorado-RealEyesColoradoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		562A68742602B1E4009C362C /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		56434D5425FADD5700F5B4F4 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		56434D5C25FAE05400F5B4F4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		56434D6525FAE1E700F5B4F4 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		56434D7225FAE7AB00F5B4F4 /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
+		56641B7025F83C5C0088DB21 /* RealEyesColorado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEyesColorado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56641B7325F83C5C0088DB21 /* RealEyesColoradoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEyesColoradoApp.swift; sourceTree = "<group>"; };
+		56641B7525F83C5C0088DB21 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		56641B7725F83C5F0088DB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56641B7A25F83C5F0088DB21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56641B7C25F83C5F0088DB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56641B8125F83C600088DB21 /* RealEyesColoradoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEyesColoradoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56641B8525F83C600088DB21 /* RealEyesColoradoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEyesColoradoTests.swift; sourceTree = "<group>"; };
+		56641B8725F83C600088DB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56641B8C25F83C600088DB21 /* RealEyesColoradoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEyesColoradoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56641B9025F83C600088DB21 /* RealEyesColoradoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEyesColoradoUITests.swift; sourceTree = "<group>"; };
+		56641B9225F83C600088DB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DFB7DF25FBF4E500CE5B1E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		56DFB7E725FBF6BF00CE5B1E /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		56DFB7F325FBF8AB00CE5B1E /* LocationListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListItemView.swift; sourceTree = "<group>"; };
+		56DFB80625FC3CC600CE5B1E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		56DFB81B25FFE1DA00CE5B1E /* DetailGalleryScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGalleryScrollView.swift; sourceTree = "<group>"; };
+		56DFB82025FFE2F900CE5B1E /* DetailHeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeadingView.swift; sourceTree = "<group>"; };
+		56DFB82925FFE62C00CE5B1E /* DetailFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFactView.swift; sourceTree = "<group>"; };
+		56DFB83126000C0800CE5B1E /* DetailExternalLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailExternalLinkView.swift; sourceTree = "<group>"; };
+		56DFB8362600195500CE5B1E /* DetailMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapView.swift; sourceTree = "<group>"; };
+		56F3A74B260535CF00456980 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		56F3A7502605381600456980 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		56F3A756260538BC00456980 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		56F3A7612605513F00456980 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		90A93023EF358912ECFFEDD1 /* Pods-RealEyesColorado-RealEyesColoradoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEyesColorado-RealEyesColoradoUITests.release.xcconfig"; path = "Target Support Files/Pods-RealEyesColorado-RealEyesColoradoUITests/Pods-RealEyesColorado-RealEyesColoradoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B8F01D7A3CEDDB055650525 /* Pods_RealEyesColoradoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEyesColoradoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A979232752D59096B610D7 /* Pods_RealEyesColorado_RealEyesColoradoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEyesColorado_RealEyesColoradoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7229744948C00D1541E034 /* Pods_RealEyesColorado.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEyesColorado.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312FB11509D12AA3E986A4B /* Pods-RealEyesColorado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEyesColorado.release.xcconfig"; path = "Target Support Files/Pods-RealEyesColorado/Pods-RealEyesColorado.release.xcconfig"; sourceTree = "<group>"; };
+		FE114CF86A33684A1B33DAA9 /* Pods-RealEyesColorado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEyesColorado.debug.xcconfig"; path = "Target Support Files/Pods-RealEyesColorado/Pods-RealEyesColorado.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56641B6D25F83C5C0088DB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F064751D58CD0CDFF568D50D /* Pods_RealEyesColorado.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56641B7E25F83C600088DB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33F5BFDA88EC3A474ACE11C /* Pods_RealEyesColoradoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56641B8925F83C600088DB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987B01FB5B81B027396DAFC4 /* Pods_RealEyesColorado_RealEyesColoradoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDA71357856434803403D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE114CF86A33684A1B33DAA9 /* Pods-RealEyesColorado.debug.xcconfig */,
+				E312FB11509D12AA3E986A4B /* Pods-RealEyesColorado.release.xcconfig */,
+				463ED711D31CE23442A017C2 /* Pods-RealEyesColorado-RealEyesColoradoUITests.debug.xcconfig */,
+				90A93023EF358912ECFFEDD1 /* Pods-RealEyesColorado-RealEyesColoradoUITests.release.xcconfig */,
+				3A2953D030097F36DB8D109A /* Pods-RealEyesColoradoTests.debug.xcconfig */,
+				296DDA13D9EA2269EA689DCF /* Pods-RealEyesColoradoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		562A687C2602B69F009C362C /* LocationsTab */ = {
+			isa = PBXGroup;
+			children = (
+				56641B7525F83C5C0088DB21 /* LocationsView.swift */,
+				56F3A7612605513F00456980 /* CoverImageView.swift */,
+				56DFB7F325FBF8AB00CE5B1E /* LocationListItemView.swift */,
+				56DFB82525FFE44F00CE5B1E /* DetailView */,
+			);
+			path = LocationsTab;
+			sourceTree = "<group>";
+		};
+		562A687D2602B6E0009C362C /* MapsTab */ = {
+			isa = PBXGroup;
+			children = (
+				56434D5C25FAE05400F5B4F4 /* MapView.swift */,
+				562A68742602B1E4009C362C /* MapAnnotationView.swift */,
+			);
+			path = MapsTab;
+			sourceTree = "<group>";
+		};
+		56434D5325FADD2D00F5B4F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				56641B7325F83C5C0088DB21 /* RealEyesColoradoApp.swift */,
+				56434D5425FADD5700F5B4F4 /* TabsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		56434D6425FAE1C900F5B4F4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				56434D6525FAE1E700F5B4F4 /* locations.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		56434D7125FAE78B00F5B4F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56434D7225FAE7AB00F5B4F4 /* CodeableBundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56641B6725F83C5C0088DB21 = {
+			isa = PBXGroup;
+			children = (
+				56641B7225F83C5C0088DB21 /* RealEyesColorado */,
+				56641B8425F83C600088DB21 /* RealEyesColoradoTests */,
+				56641B8F25F83C600088DB21 /* RealEyesColoradoUITests */,
+				56641B7125F83C5C0088DB21 /* Products */,
+				0FDA71357856434803403D2F /* Pods */,
+				9034321C804E793E19918D16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56641B7125F83C5C0088DB21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56641B7025F83C5C0088DB21 /* RealEyesColorado.app */,
+				56641B8125F83C600088DB21 /* RealEyesColoradoTests.xctest */,
+				56641B8C25F83C600088DB21 /* RealEyesColoradoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56641B7225F83C5C0088DB21 /* RealEyesColorado */ = {
+			isa = PBXGroup;
+			children = (
+				56434D5325FADD2D00F5B4F4 /* App */,
+				56DFB7F225FBF74200CE5B1E /* Views */,
+				56DFB7DE25FBF4BD00CE5B1E /* Models */,
+				56434D7125FAE78B00F5B4F4 /* Extensions */,
+				56DFB80B25FC3CCC00CE5B1E /* Utilities */,
+				56434D6425FAE1C900F5B4F4 /* Data */,
+				56641B7725F83C5F0088DB21 /* Assets.xcassets */,
+				56641B7C25F83C5F0088DB21 /* Info.plist */,
+				56641B7925F83C5F0088DB21 /* Preview Content */,
+			);
+			path = RealEyesColorado;
+			sourceTree = "<group>";
+		};
+		56641B7925F83C5F0088DB21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56641B7A25F83C5F0088DB21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56641B8425F83C600088DB21 /* RealEyesColoradoTests */ = {
+			isa = PBXGroup;
+			children = (
+				56641B8525F83C600088DB21 /* RealEyesColoradoTests.swift */,
+				56641B8725F83C600088DB21 /* Info.plist */,
+			);
+			path = RealEyesColoradoTests;
+			sourceTree = "<group>";
+		};
+		56641B8F25F83C600088DB21 /* RealEyesColoradoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56641B9025F83C600088DB21 /* RealEyesColoradoUITests.swift */,
+				56641B9225F83C600088DB21 /* Info.plist */,
+			);
+			path = RealEyesColoradoUITests;
+			sourceTree = "<group>";
+		};
+		56DFB7DE25FBF4BD00CE5B1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56DFB7DF25FBF4E500CE5B1E /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56DFB7F225FBF74200CE5B1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				562A687C2602B69F009C362C /* LocationsTab */,
+				562A687D2602B6E0009C362C /* MapsTab */,
+				56F3A7422605359E00456980 /* VideoTab */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56DFB80B25FC3CCC00CE5B1E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56DFB80625FC3CC600CE5B1E /* Colors.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		56DFB82525FFE44F00CE5B1E /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				56DFB7E725FBF6BF00CE5B1E /* LocationDetailView.swift */,
+				56DFB82025FFE2F900CE5B1E /* DetailHeadingView.swift */,
+				56DFB82925FFE62C00CE5B1E /* DetailFactView.swift */,
+				56DFB81B25FFE1DA00CE5B1E /* DetailGalleryScrollView.swift */,
+				56DFB8362600195500CE5B1E /* DetailMapView.swift */,
+				56DFB83126000C0800CE5B1E /* DetailExternalLinkView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		56F3A7422605359E00456980 /* VideoTab */ = {
+			isa = PBXGroup;
+			children = (
+				56F3A74B260535CF00456980 /* VideoView.swift */,
+				56F3A7502605381600456980 /* VideoListItemView.swift */,
+				56F3A7552605389D00456980 /* VideoDetailView */,
+			);
+			path = VideoTab;
+			sourceTree = "<group>";
+		};
+		56F3A7552605389D00456980 /* VideoDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				56F3A756260538BC00456980 /* VideoDetailView.swift */,
+			);
+			path = VideoDetailView;
+			sourceTree = "<group>";
+		};
+		9034321C804E793E19918D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7229744948C00D1541E034 /* Pods_RealEyesColorado.framework */,
+				B7A979232752D59096B610D7 /* Pods_RealEyesColorado_RealEyesColoradoUITests.framework */,
+				9B8F01D7A3CEDDB055650525 /* Pods_RealEyesColoradoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56641B6F25F83C5C0088DB21 /* RealEyesColorado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56641B9525F83C600088DB21 /* Build configuration list for PBXNativeTarget "RealEyesColorado" */;
+			buildPhases = (
+				2B64C86F813914E68D0E2E10 /* [CP] Check Pods Manifest.lock */,
+				56641B6C25F83C5C0088DB21 /* Sources */,
+				56641B6D25F83C5C0088DB21 /* Frameworks */,
+				56641B6E25F83C5C0088DB21 /* Resources */,
+				CFDF4AD669568FA14E42C30C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealEyesColorado;
+			productName = RealEyesColorado;
+			productReference = 56641B7025F83C5C0088DB21 /* RealEyesColorado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56641B8025F83C600088DB21 /* RealEyesColoradoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56641B9825F83C600088DB21 /* Build configuration list for PBXNativeTarget "RealEyesColoradoTests" */;
+			buildPhases = (
+				A5F65583DE621344A6E92FC7 /* [CP] Check Pods Manifest.lock */,
+				56641B7D25F83C600088DB21 /* Sources */,
+				56641B7E25F83C600088DB21 /* Frameworks */,
+				56641B7F25F83C600088DB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56641B8325F83C600088DB21 /* PBXTargetDependency */,
+			);
+			name = RealEyesColoradoTests;
+			productName = RealEyesColoradoTests;
+			productReference = 56641B8125F83C600088DB21 /* RealEyesColoradoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56641B8B25F83C600088DB21 /* RealEyesColoradoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56641B9B25F83C600088DB21 /* Build configuration list for PBXNativeTarget "RealEyesColoradoUITests" */;
+			buildPhases = (
+				482EA49D02AC09FE5EADC707 /* [CP] Check Pods Manifest.lock */,
+				56641B8825F83C600088DB21 /* Sources */,
+				56641B8925F83C600088DB21 /* Frameworks */,
+				56641B8A25F83C600088DB21 /* Resources */,
+				B126E97AC9CEB065F87B0584 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56641B8E25F83C600088DB21 /* PBXTargetDependency */,
+			);
+			name = RealEyesColoradoUITests;
+			productName = RealEyesColoradoUITests;
+			productReference = 56641B8C25F83C600088DB21 /* RealEyesColoradoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56641B6825F83C5C0088DB21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					56641B6F25F83C5C0088DB21 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					56641B8025F83C600088DB21 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 56641B6F25F83C5C0088DB21;
+					};
+					56641B8B25F83C600088DB21 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 56641B6F25F83C5C0088DB21;
+					};
+				};
+			};
+			buildConfigurationList = 56641B6B25F83C5C0088DB21 /* Build configuration list for PBXProject "RealEyesColorado" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56641B6725F83C5C0088DB21;
+			productRefGroup = 56641B7125F83C5C0088DB21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56641B6F25F83C5C0088DB21 /* RealEyesColorado */,
+				56641B8025F83C600088DB21 /* RealEyesColoradoTests */,
+				56641B8B25F83C600088DB21 /* RealEyesColoradoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56641B6E25F83C5C0088DB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56641B7B25F83C5F0088DB21 /* Preview Assets.xcassets in Resources */,
+				56434D6625FAE1E700F5B4F4 /* locations.json in Resources */,
+				56641B7825F83C5F0088DB21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56641B7F25F83C600088DB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56641B8A25F83C600088DB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B64C86F813914E68D0E2E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealEyesColorado-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		482EA49D02AC09FE5EADC707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealEyesColorado-RealEyesColoradoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F65583DE621344A6E92FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealEyesColoradoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B126E97AC9CEB065F87B0584 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEyesColorado-RealEyesColoradoUITests/Pods-RealEyesColorado-RealEyesColoradoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEyesColorado-RealEyesColoradoUITests/Pods-RealEyesColorado-RealEyesColoradoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealEyesColorado-RealEyesColoradoUITests/Pods-RealEyesColorado-RealEyesColoradoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDF4AD669568FA14E42C30C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEyesColorado/Pods-RealEyesColorado-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealEyesColorado/Pods-RealEyesColorado-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealEyesColorado/Pods-RealEyesColorado-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56641B6C25F83C5C0088DB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A68752602B1E4009C362C /* MapAnnotationView.swift in Sources */,
+				56434D7325FAE7AB00F5B4F4 /* CodeableBundleExtension.swift in Sources */,
+				56F3A7512605381600456980 /* VideoListItemView.swift in Sources */,
+				56DFB80725FC3CC600CE5B1E /* Colors.swift in Sources */,
+				56DFB81C25FFE1DA00CE5B1E /* DetailGalleryScrollView.swift in Sources */,
+				56DFB82A25FFE62C00CE5B1E /* DetailFactView.swift in Sources */,
+				56641B7625F83C5C0088DB21 /* LocationsView.swift in Sources */,
+				56434D5D25FAE05400F5B4F4 /* MapView.swift in Sources */,
+				56DFB83226000C0800CE5B1E /* DetailExternalLinkView.swift in Sources */,
+				56DFB7E825FBF6BF00CE5B1E /* LocationDetailView.swift in Sources */,
+				56DFB7F425FBF8AB00CE5B1E /* LocationListItemView.swift in Sources */,
+				56434D5525FADD5700F5B4F4 /* TabsView.swift in Sources */,
+				56DFB8372600195500CE5B1E /* DetailMapView.swift in Sources */,
+				56F3A7622605513F00456980 /* CoverImageView.swift in Sources */,
+				56F3A757260538BC00456980 /* VideoDetailView.swift in Sources */,
+				56F3A74C260535CF00456980 /* VideoView.swift in Sources */,
+				56DFB7E025FBF4E500CE5B1E /* Location.swift in Sources */,
+				56641B7425F83C5C0088DB21 /* RealEyesColoradoApp.swift in Sources */,
+				56DFB82125FFE2F900CE5B1E /* DetailHeadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56641B7D25F83C600088DB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56641B8625F83C600088DB21 /* RealEyesColoradoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56641B8825F83C600088DB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56641B9125F83C600088DB21 /* RealEyesColoradoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56641B8325F83C600088DB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56641B6F25F83C5C0088DB21 /* RealEyesColorado */;
+			targetProxy = 56641B8225F83C600088DB21 /* PBXContainerItemProxy */;
+		};
+		56641B8E25F83C600088DB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56641B6F25F83C5C0088DB21 /* RealEyesColorado */;
+			targetProxy = 56641B8D25F83C600088DB21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56641B9325F83C600088DB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56641B9425F83C600088DB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56641B9625F83C600088DB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE114CF86A33684A1B33DAA9 /* Pods-RealEyesColorado.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RealEyesColorado/Preview Content\"";
+				DEVELOPMENT_TEAM = W2DL3PWML7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RealEyesColorado/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realeyes.RealEyesColorado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56641B9725F83C600088DB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E312FB11509D12AA3E986A4B /* Pods-RealEyesColorado.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RealEyesColorado/Preview Content\"";
+				DEVELOPMENT_TEAM = W2DL3PWML7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RealEyesColorado/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realeyes.RealEyesColorado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56641B9925F83C600088DB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2953D030097F36DB8D109A /* Pods-RealEyesColoradoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2DL3PWML7;
+				INFOPLIST_FILE = RealEyesColoradoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realeyes.RealEyesColoradoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEyesColorado.app/RealEyesColorado";
+			};
+			name = Debug;
+		};
+		56641B9A25F83C600088DB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296DDA13D9EA2269EA689DCF /* Pods-RealEyesColoradoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2DL3PWML7;
+				INFOPLIST_FILE = RealEyesColoradoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realeyes.RealEyesColoradoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEyesColorado.app/RealEyesColorado";
+			};
+			name = Release;
+		};
+		56641B9C25F83C600088DB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463ED711D31CE23442A017C2 /* Pods-RealEyesColorado-RealEyesColoradoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2DL3PWML7;
+				INFOPLIST_FILE = RealEyesColoradoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realeyes.RealEyesColoradoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealEyesColorado;
+			};
+			name = Debug;
+		};
+		56641B9D25F83C600088DB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A93023EF358912ECFFEDD1 /* Pods-RealEyesColorado-RealEyesColoradoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2DL3PWML7;
+				INFOPLIST_FILE = RealEyesColoradoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.realeyes.RealEyesColoradoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealEyesColorado;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56641B6B25F83C5C0088DB21 /* Build configuration list for PBXProject "RealEyesColorado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56641B9325F83C600088DB21 /* Debug */,
+				56641B9425F83C600088DB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56641B9525F83C600088DB21 /* Build configuration list for PBXNativeTarget "RealEyesColorado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56641B9625F83C600088DB21 /* Debug */,
+				56641B9725F83C600088DB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56641B9825F83C600088DB21 /* Build configuration list for PBXNativeTarget "RealEyesColoradoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56641B9925F83C600088DB21 /* Debug */,
+				56641B9A25F83C600088DB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56641B9B25F83C600088DB21 /* Build configuration list for PBXNativeTarget "RealEyesColoradoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56641B9C25F83C600088DB21 /* Debug */,
+				56641B9D25F83C600088DB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56641B6825F83C5C0088DB21 /* Project object */;
+}

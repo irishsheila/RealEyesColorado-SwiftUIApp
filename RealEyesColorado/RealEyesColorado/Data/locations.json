@@ -1,0 +1,289 @@
+[
+  {
+    "id" : "garden_of_the_gods",
+    "name" : "Garden of the Gods",
+    "headline" : "The Garden of the Gods is public park located in Colorado Springs",
+    "headerImage" : "garden-of-the-gods-header",
+    "gallery" : [
+      "garden-of-the-gods-1",
+      "garden-of-the-gods-2",
+      "garden-of-the-gods-3",
+      "garden-of-the-gods-4",
+      "garden-of-the-gods-5",
+      "garden-of-the-gods-6",
+      "garden-of-the-gods-7"
+    ],
+    "facts" : [
+          "The Garden of the Gods' red rock formations were created during a geological upheaval along a natural fault line millions of years ago.",
+          "The outstanding geologic features of the park are the ancient sedimentary beds of deep-red, pink & white sandstones, conglomerates & limestone.",
+          "The sediments were deposited horizontally, but have now been tilted vertically & faulted into fins by the immense mountain building forces caused by the uplift of the Rocky Mountains.",
+          "The main trail in the park, the 1.5-mile Perkins Central Garden Trail, is paved & wheelchair-accessible, running through the heart of the park's largest & most scenic red rocks.",
+          "The towering red rock formations come alive when you visit the free Visitor & Nature Center & explore the geology, plants, animals & people of this amazing 1334.64-acre regional park."
+        ],
+    "toDo" : [
+            "hiking",
+            "technical rock climbing",
+            "road & mountain biking",
+            "horseback riding",
+            "guided tours"
+        ],
+    "latitude" : 38.867769,
+    "longitude" : -104.8910877,
+    "links" : [
+            {
+                "title" : "Visitor & Nature Center",
+                "link" : "https://www.gardenofgods.com"
+            },
+            {
+                "title" : "Wikipedia: Garden of the Gods",
+                "link" : "https://en.wikipedia.org/wiki/Garden_of_the_Gods"
+            }
+        ],
+    "videoID" : "ga_4vhyAZGM"
+  },
+  {
+    "id" : "rocky_mountain_national_park",
+    "name" : "Rocky Mountain National Park",
+    "headline" : "Rocky Mountain National Park includes some of the highest mountains in the continental United States",
+    "headerImage" : "rocky_mountain_national_park-header",
+    "gallery" : [
+      "rocky_mountain_national_park-1",
+      "rocky_mountain_national_park-2",
+      "rocky_mountain_national_park-3",
+      "rocky_mountain_national_park-4",
+      "rocky_mountain_national_park-5",
+      "rocky_mountain_national_park-6",
+      "rocky_mountain_national_park-7",
+      "rocky_mountain_national_park-8",
+      "rocky_mountain_national_park-9"
+    ],
+    "facts" : [
+        "The top third of the park encompasses the alpine tundra, a windswept land above the trees.",
+        "Landscapes on either side of the Continental Divide feature alpine lakes, forested valleys & a wide range of plants & animals.",
+          "With the 1803 Louisiana Purchase, the U.S. government acquired the land now known as Rocky Mountain National Park.",
+          "Iconic summer thunderstorms & persistent winter winds are among the forces that continue to shape this majestic landscape.",
+          "Rocky Mountain National Park was created on September 4, 1915. Rocky Mountain National Park became a park before the National Park Service was created in 1916.",
+          "Trail Ridge Road was built by the Civilian Conservation Corps as part of President Franklin Roosevelt's Green Deal to help Americans recover from the Great Depression.",
+          "Cresting just over 12,000 feet, Trail Ridge Road is the highest continuous paved highway in the nation — it is so high that drivers will climb 4,000 feet in a matter of minutes.",
+          "The park is home to more than 60 species of mammals, including elk, bighorn sheep & moose.",
+          "Besides the charismatic megafauna, the park has more than 280 recorded bird species, six amphibians, one reptile (the harmless garter snake), 11 species of fish & countless insects, including a surprisingly large number of butterflies."
+        ],
+    "toDo" : [
+            "hiking",
+            "scenic drives",
+            "wildlife watching & photography",
+            "picnicking",
+            "ranger-led programs",
+            "camping",
+            "fishing",
+            "horseback riding"
+        ],
+    "latitude" : 40.359161,
+    "longitude" : -105.596962,
+    "links" : [
+            {
+                "title" : "National Park Service: RMNP",
+                "link" : "https://www.nps.gov/romo/index.htm"
+            },
+            {
+                "title" : "Rocky Mountain National Park",
+                "link" : "https://rockymountainnationalpark.com"
+            },
+            {
+                "title" : "NPS RMNP Webcams",
+                "link" : "https://www.nps.gov/romo/learn/photosmultimedia/webcams.htm"
+            }
+        ],
+    "videoID" : "tdWV2xEyOfE"
+  },
+  {
+    "id" : "estes_park",
+    "name" : "Estes Park",
+    "headline" : "A popular summer resort & the location of the headquarters for Rocky Mountain National Park, Estes Park lies along the Big Thompson River",
+    "headerImage" : "estes_park-header",
+    "gallery" : [
+      "estes_park-1",
+      "estes_park-2",
+      "estes_park-3",
+      "estes_park-4",
+      "estes_park-5"
+    ],
+    "facts" : [
+        "Estes Park, a Colorado town with fewer than 7,000 residents, sits along the Big Thompson River.",
+        "As the headquarters for Rocky Mountain National Park, a 265,000-acre area with 359 miles of hiking trails, 150 lakes & nearly 100 tall mountain peaks, Estes Park gets several million visitors each year.",
+        "The trendy town is well-known for its abundance of restaurants, spas, hostels, wedding venues, golf courses, shops & entertainment venues.",
+        "Home of the historic Stanley Hotel, opened in 1909, which inspried the Overlook Hotel in Stephen King's book, 'The Shining'.",
+        "The Estes Park Aerial Tramway dates back to 1955. Robert Herron, a renowned ski lift designer, pursued the tramway project after studying ski lift & tram design in Europe.",
+        "The Herron family continues to operate the Estes Park Aerial Tramway, which takes more than 3 million passengers to the top of Prospect Mountain each year.",
+        "The name “Estes Park” (or “Este’s Park” as it was first known), was bestowed on the valley by William Byers, founding editor of the Rocky Mountain News.",
+        "Estes Park was named in honor of its first permanent Anglo residents, Kentuckian Joel Estes & his wife Patsy."
+        ],
+    "toDo" : [
+            "hiking",
+            "scenic drives",
+            "wildlife watching & photography",
+            "picnicking",
+            "bicycling",
+            "ranger-led programs",
+            "camping",
+            "fishing",
+            "whitewater rafting",
+            "horseback riding",
+            "shopping",
+            "dining",
+            "museums"
+        ],
+    "latitude" : 40.376129,
+    "longitude" : -105.523651,
+    "links" : [
+            {
+                "title" : "Estes Park",
+                "link" : "https://estes-park.com"
+            },
+            {
+                "title" : "Wikipedia: Estes Park",
+                "link" : "https://en.wikipedia.org/wiki/Estes_Park,_Colorado"
+            },
+            {
+                "title" : "Visit Estes Park",
+                "link" : "https://www.visitestespark.com"
+            }
+        ],
+    "videoID" : "pj_NcaytlYs"
+  },
+  {
+    "id" : "mesa_verde",
+    "name" : "Mesa Verde",
+    "headline" : "Mesa Verde National Park is an American national park & UNESCO World Heritage Site located in Montezuma County",
+    "headerImage" : "mesa_verde-header",
+    "gallery" : [
+      "mesa_verde-1",
+      "mesa_verde-2",
+      "mesa_verde-3",
+      "mesa_verde-4",
+      "mesa_verde-5",
+      "mesa_verde-6",
+      "mesa_verde-7",
+    ],
+    "facts" : [
+        "Mesa Verde was established by Congress & President Theodore Roosevelt in 1906.",
+        "The park protects some of the best-preserved Ancestral Puebloan archaeological sites in the United States.",
+        "The park occupies 52,485 acres (21,240 ha) near the Four Corners region of the American Southwest.",
+        "With more than 5,000 sites, including 600 cliff dwellings, it is the largest archaeological preserve in the United States.",
+        "Mesa Verde (Spanish for 'green table') is best known for structures such as Cliff Palace, thought to be the largest cliff dwelling in North America.",
+        "Starting 7500 BC, Mesa Verde was seasonally inhabited by a group of nomadic Paleo-Indians known as the Foothills Mountain Complex.",
+        "The Mesa Verdeans built the mesa's first pueblos sometime after 650, & by the end of the 12th century, they began to construct the massive cliff dwellings for which the park is best known."
+        ],
+    "toDo" : [
+            "hiking",
+            "camping",
+            "walking tours",
+            "dining",
+            "museums"
+        ],
+    "latitude" : 37.257179,
+    "longitude" : -108.361763,
+    "links" : [
+            {
+                "title" : "National Park Service: Mesa Verde",
+                "link" : "https://www.nps.gov/meve/index.htm"
+            },
+            {
+                "title" : "Wikipedia: Mesa Verde",
+                "link" : "https://en.wikipedia.org/wiki/Mesa_Verde_National_Park"
+            }
+        ],
+    "videoID" : "XPI68mdz2HY"
+  },
+  {
+    "id" : "royal_arch",
+    "name" : "Royal Arch Trail",
+    "headline" : "Royal Arch Trail is a 3.1 mile trail located in Chautaqua Park to a stunning rock formation located near Boulder",
+    "headerImage" : "royal_arch-header",
+    "gallery" : [
+      "royal_arch-1",
+      "royal_arch-2",
+      "royal_arch-3",
+      "royal_arch-4"
+    ],
+    "facts" : [
+        "Mesa Verde was established by Congress & President Theodore Roosevelt in 1906.",
+        "The park protects some of the best-preserved Ancestral Puebloan archaeological sites in the United States.",
+        "The park occupies 52,485 acres (21,240 ha) near the Four Corners region of the American Southwest.",
+        "With more than 5,000 sites, including 600 cliff dwellings, it is the largest archaeological preserve in the United States.",
+        "Mesa Verde (Spanish for 'green table') is best known for structures such as Cliff Palace, thought to be the largest cliff dwelling in North America.",
+        "Starting 7500 BC, Mesa Verde was seasonally inhabited by a group of nomadic Paleo-Indians known as the Foothills Mountain Complex.",
+        "The Mesa Verdeans built the mesa's first pueblos sometime after 650, & by the end of the 12th century, they began to construct the massive cliff dwellings for which the park is best known."
+        ],
+    "toDo" : [
+            "hiking",
+            "camping",
+            "walking tours",
+            "dining",
+            "museums"
+        ],
+    "latitude" : 40.014206,
+    "longitude" : -105.296772,
+    "links" : [
+            {
+                "title" : "All Trails: Royal Arch Trail",
+                "link" : "https://www.alltrails.com/trail/us/colorado/royal-arch-trail"
+            },
+            {
+                "title" : "Day Hikes: Royal Arch Trail",
+                "link" : "https://dayhikesneardenver.com/royal-arch-trail-hike-in-boulder-colorado/"
+            },
+            {
+                "title" : "Fishing & Hiking: Royal Arch Trail",
+                "link" : "https://hikingandfishing.com/royal-arch-trail/"
+            }
+        ],
+    "videoID" : "JWhVRggEnPA"
+  },
+  {
+    "id" : "dinosaur_monument",
+    "name" : "Dinosaur National Monument",
+    "headline" : "Located in a region of spectacular canyons & mountains, Dinosaur National Monument has produced a large number of complete dinosaur skeletons",
+    "headerImage" : "dinosaur-header",
+    "gallery" : [
+      "dinosaur-1",
+      "dinosaur-2",
+      "dinosaur-3",
+      "dinosaur-4",
+      "dinosaur-5",
+      "dinosaur-6",
+      "dinosaur-7",
+    ],
+    "facts" : [
+        "Over 1,500 dinosaur bones are still encased in rock in Quarry Exhibit Hall",
+        "Originally preserved in 1915 to protect its famous Dinosaur Quarry, the monument was greatly expanded in 1938 to include its wealth of natural history.",
+        "Paleontologist Earl Douglass of the Carnegie Museum discovered eight vertebra of an Apatosaurus on August 17, 1909, which became the first dinosaur skeleton discovered & excavated at the new Carnegie Quarry.",
+        "The rock layer enclosing the fossils is a sandstone & conglomerate bed of alluvial or river bed origin known as the Morrison Formation from the Jurassic Period some 150 million years old.",
+        "The monument boundaries were expanded in 1938 from the original 80 acres surrounding the dinosaur quarry in Utah, to 210,844 acres in Utah & Colorado.",
+        "Petroglyphs & pictographs provide evidence that many groups made this arid land their home, including the Fremont Indians & the Ute & Shoshone, who still reside in the area today."
+        ],
+    "toDo" : [
+            "hiking",
+            "camping",
+            "river rafting",
+            "museums"
+        ],
+    "latitude" : 40.555548,
+    "longitude" : -108.931510,
+    "links" : [
+            {
+                "title" : "National Park Service: Dinosaur National Monument",
+                "link" : "https://www.nps.gov/dino/index.htm"
+            },
+            {
+                "title" : "Wikipedia: Dinosaur National Monument",
+                "link" : "https://en.wikipedia.org/wiki/Dinosaur_National_Monument"
+            },
+            {
+                "title" : "National Park Foundation: Dinosaur National Monument",
+                "link" : "https://www.nationalparks.org/connect/explore-parks/dinosaur-national-monument"
+            }
+        ],
+    "videoID" : "PoCN4Lo9Lkk"
+  }
+]
